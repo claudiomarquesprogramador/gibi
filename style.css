@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/painel2mais.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+form input{
+    width: auto;
+    height: auto;
+}
+form {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+#gibi {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.gibi-linha {
+    width: 100%;
+    height: 28vh;
+    display: flex;
+}
+.gibi-coluna1 {
+    width: 50%;
+    height: 100%;
+}
+.gibi-coluna1 img {
+    width: 100%;
+    height: 100%;
+}
+.gibi-coluna2 {
+    width: 50%;
+    height: 100%;
+}
+/*dica :enabled e :disabled pros input*/
