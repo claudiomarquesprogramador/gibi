@@ -5,28 +5,37 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url(img/painel2mais.jpg);
+    /*background-image: url(img/painel2mais.jpg);
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+
+    background-color: skyblue;
+    background-image: url(img/nuvem1.png);
+    background-size: 50vw 29vh;
 }
 form input{
-    width: auto;
+    width: 115px;
+    max-width: 32vw;
     height: auto;
 }
 form {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    display: flex;
 }
 #gibi {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
+    
 }
 .gibi-linha {
-    width: 100%;
+    width: 90%;
     height: 28vh;
     display: flex;
+    margin: auto;
+    margin: 0px auto 10px auto;
 }
 .gibi-coluna1 {
     width: 50%;
@@ -39,5 +48,12 @@ form {
 .gibi-coluna2 {
     width: 50%;
     height: 100%;
+}
+#botoes {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    position: fixed;
+    bottom: 0;
 }
 /*dica :enabled e :disabled pros input*/
