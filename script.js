@@ -47,6 +47,28 @@ function textoEnviado1() {
     }else {
         console.log(captar1);
         document.getElementById("p1").innerHTML = captar1;
-        /*document.getElementById("p1").textContent = captar1;*/
     }
 }
+//terminado texto1
+let captar2 = "";
+function textoEnviado2() {
+    captar2 = document.getElementById("texto2").value;
+    if(captar2=="") {
+        alert("Escreva o segundo texto!");
+    }else {
+        console.log(captar2);
+        document.getElementById("p2").innerHTML = captar2;
+    }
+}
+//terminado texto2
+let captar3 = "";
+function textoEnviado3() {
+    captar3 = document.getElementById("texto3").value;
+    if(captar3=="") {
+        alert("Escreva o terceiro texto!");
+    }else {
+        console.log(captar3);
+        document.getElementById("p3").innerHTML = captar3;
+    }
+}
+//terminado texto3

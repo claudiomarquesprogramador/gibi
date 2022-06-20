@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+    font-family: 'tmj';
+    src: url(tmj_by_mallagueta_pepper-d62rr8r.ttf);
+}
 body{
     width: 100%;
     height: 100%;
@@ -45,6 +49,7 @@ body{
 .gibi-coluna1 {
     width: 50%;
     height: 100%;
+    display: flex;
 }
 .gibi-coluna1 img {
     width: 100%;
@@ -53,6 +58,13 @@ body{
 .gibi-coluna2 {
     width: 50%;
     height: 100%;
+    display: flex;
+}
+.nuvemTexto {
+    font-family: 'tmj';
+    font-size: 30px;
+    display: flex;
+    margin: auto;
 }
 #botoes {
     width: 100vw;
