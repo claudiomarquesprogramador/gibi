@@ -8,6 +8,7 @@ function readImage1() {
     }}
 document.getElementById("img1-input").addEventListener("change", readImage1, false);
 //primeira imagem terminada
+
 function readImage2() {
 if (this.files && this.files[0]) {
     var file = new FileReader();
@@ -18,6 +19,7 @@ if (this.files && this.files[0]) {
 }}
 document.getElementById("img2-input").addEventListener("change", readImage2, false);
 //segunda imagem terminada
+
 function readImage3() {
 if (this.files && this.files[0]) {
     var file = new FileReader();
@@ -28,17 +30,19 @@ if (this.files && this.files[0]) {
 }}
 document.getElementById("img3-input").addEventListener("change", readImage3, false);
 //terceira imagem terminada
+
 let visibilidade = true;
 function displaymenu() {
     if(visibilidade){
-        document.getElementById("form1").style.display="none";
+        document.getElementById("header").style.display="none";
         visibilidade=false;
     }else{
-        document.getElementById("form1").style.display="flex";
+        document.getElementById("header").style.display="block";
         visibilidade=true;
     }   
 }
 //terminei visibilidade dos input das fotos
+
 let captar1 = "";
 function textoEnviado1() {
     captar1 = document.getElementById("texto1").value;
@@ -50,6 +54,7 @@ function textoEnviado1() {
     }
 }
 //terminado texto1
+
 let captar2 = "";
 function textoEnviado2() {
     captar2 = document.getElementById("texto2").value;
@@ -61,6 +66,7 @@ function textoEnviado2() {
     }
 }
 //terminado texto2
+
 let captar3 = "";
 function textoEnviado3() {
     captar3 = document.getElementById("texto3").value;

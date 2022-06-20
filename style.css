@@ -17,54 +17,60 @@ body{
     background-image: url(img/nuvem1.png);
     background-size: 50vw 29vh;
 }
-#form1 {
-    width: 100%;
+#header {
+    display: block;
+}
+#form1,#form2 {
+    width: auto;
     height: auto;
     display: flex;
+    justify-content: space-around;
 }
-#form1 input{
+#form1 input {
     width: 115px;
     max-width: 33.3vw;
     height: auto;
 }
-#form2 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    display: flex;
+#form2 input[type="text"] {
+    width: 86px;
+    max-width: 19vw;
 }
 #gibi {
     width: 100%;
     height: 100%;
     display: block;
-    
 }
 .gibi-linha {
     width: 90%;
-    height: 25vh;
+    height: 26vh;
     display: flex;
     margin: auto;
     margin: 0px auto 10px auto;
 }
-.gibi-coluna1 {
+.gibi-linha:first-child {
+    margin-top: 15px;
+}
+.gibi-coluna1, .gibi-coluna2 {
     width: 50%;
     height: 100%;
     display: flex;
+    text-align: center;
 }
 .gibi-coluna1 img {
-    width: 100%;
+    width: 97%;
     height: 100%;
-}
-.gibi-coluna2 {
-    width: 50%;
-    height: 100%;
-    display: flex;
+    border-radius: 2px;
 }
 .nuvemTexto {
     font-family: 'tmj';
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     margin: auto;
+}
+.gibi-coluna2 p {
+    padding: 5px;
+    border-radius: 13px;
+    border: 2px solid black;
 }
 #botoes {
     width: 100vw;

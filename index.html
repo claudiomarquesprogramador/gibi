@@ -9,19 +9,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="form1">
-        <input id="img1-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
-        <input id="img2-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
-        <input id="img3-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
-    </form>
-    <form id="form2">
-        <input type="text" name="texto1" id="texto1" placeholder="Primeiro texto" autocomplete="off">
-        <input type="button" value="Enviar" onclick="textoEnviado1()">
-        <input type="text" name="texto2" id="texto2" placeholder="Segundo texto" autocomplete="off">
-        <input type="button" value="Enviar" onclick="textoEnviado2()">
-        <input type="text" name="texto3" id="texto3" placeholder="Terceiro texto" autocomplete="off">
-        <input type="button" value="Enviar" onclick="textoEnviado3()">
-    </form>
+    <div id="header">
+        <form id="form1">
+            <input id="img1-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
+            <input id="img2-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
+            <input id="img3-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
+        </form>
+        <form id="form2">
+            <input type="text" name="texto1" id="texto1" placeholder="Primeiro texto" autocomplete="off">
+            <input type="button" value="Enviar" onclick="textoEnviado1()">
+            <input type="text" name="texto2" id="texto2" placeholder="Segundo texto" autocomplete="off">
+            <input type="button" value="Enviar" onclick="textoEnviado2()">
+            <input type="text" name="texto3" id="texto3" placeholder="Terceiro texto" autocomplete="off">
+            <input type="button" value="Enviar" onclick="textoEnviado3()">
+        </form>
+    </div>
     <div id="gibi">
         <div class="gibi-linha"><div class="gibi-coluna1"><img id="imagem1" src=""></div><div class="gibi-coluna2"><p id="p1" class="nuvemTexto">primeiro texto</p></div></div>
         <div class="gibi-linha"><div class="gibi-coluna2"><p id="p2" class="nuvemTexto">segundo texto</p></div><div class="gibi-coluna1"><img id="imagem2" src=""></div></div>
