@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0px;
 }
 body{
@@ -13,12 +13,17 @@ body{
     background-image: url(img/nuvem1.png);
     background-size: 50vw 29vh;
 }
-form input{
+#form1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#form1 input{
     width: 115px;
-    max-width: 32vw;
+    max-width: 33.3vw;
     height: auto;
 }
-form {
+#form2 {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -32,7 +37,7 @@ form {
 }
 .gibi-linha {
     width: 90%;
-    height: 28vh;
+    height: 25vh;
     display: flex;
     margin: auto;
     margin: 0px auto 10px auto;

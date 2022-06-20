@@ -14,10 +14,18 @@
         <input id="img2-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
         <input id="img3-input" type="file" name="" accept="image/jpeg, image/jpg, image/png">
     </form>
+    <form id="form2">
+        <input type="text" name="texto1" id="texto1" placeholder="Primeiro texto">
+        <input type="submit" value="Enviar" onclick="textoEnviado1()">
+        <input type="text" name="texto2" id="texto2" placeholder="Segundo texto">
+        <input type="submit" value="Enviar" onclick="textoEnviado2()">
+        <input type="text" name="texto3" id="texto3" placeholder="Terceiro texto">
+        <input type="submit" value="Enviar" onclick="textoEnviado3()">
+    </form>
     <div id="gibi">
-        <div class="gibi-linha"><div class="gibi-coluna1"><img id="imagem1" src=""></div><div class="gibi-coluna2"></div></div>
-        <div class="gibi-linha"><div class="gibi-coluna2"></div><div class="gibi-coluna1"><img id="imagem2" src=""></div></div>
-        <div class="gibi-linha"><div class="gibi-coluna1"><img id="imagem3" src=""></div><div class="gibi-coluna2"></div></div>
+        <div class="gibi-linha"><div class="gibi-coluna1"><img id="imagem1" src=""></div><div class="gibi-coluna2"><p id="p1"></p></div></div>
+        <div class="gibi-linha"><div class="gibi-coluna2"><p id="p2"></p></div><div class="gibi-coluna1"><img id="imagem2" src=""></div></div>
+        <div class="gibi-linha"><div class="gibi-coluna1"><img id="imagem3" src=""></div><div class="gibi-coluna2"><p id="p3"></p></div></div>
     </div>
     <div id="botoes">
         <input type="button" value="Menu" onclick="displaymenu()">

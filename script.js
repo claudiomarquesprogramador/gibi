@@ -39,3 +39,14 @@ function displaymenu() {
     }   
 }
 //terminei visibilidade dos input das fotos
+let captar1 = "";
+function textoEnviado1() {
+    captar1 = document.getElementById("texto1").value;
+    if(captar1=="") {
+        alert("Escreva o primeiro texto!");
+    }else {
+        console.log(captar1);
+        document.getElementById("p1").innerHTML = captar1;
+        /*document.getElementById("p1").textContent = captar1;*/
+    }
+}
