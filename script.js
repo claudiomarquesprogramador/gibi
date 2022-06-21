@@ -1,3 +1,9 @@
+
+
+
+
+
+
 function readImage1() {
     if (this.files && this.files[0]) {
         var file = new FileReader();
