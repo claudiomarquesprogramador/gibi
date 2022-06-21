@@ -36,13 +36,14 @@ body{
     max-width: 19vw;
 }
 #gibi {
-    width: 100%;
-    height: 100%;
+    width: 50vh;
+    height: 88vh;
     display: block;
+    margin: auto;
 }
-.gibi-linha {
-    width: 90%;
-    height: 26vh;
+.gibi-linha {/*width: 90%;height: 26vh;*/
+    width: 100%;
+    height: 32%;
     display: flex;
     margin: auto;
     margin: 0px auto 10px auto;
@@ -57,7 +58,7 @@ body{
     text-align: center;
 }
 .gibi-coluna1 img {
-    width: 97%;
+    width: 100%;
     height: 100%;
     border-radius: 2px;
 }
@@ -80,3 +81,7 @@ body{
     bottom: 0;
 }
 /*dica :enabled e :disabled pros input*/
+
+/*@media screen and (device-aspect-ratio: 16/9), screen and (device-aspect-ratio: 16/10) { ... }
+@media (min-width: 700px) { ... }
+@media (min-width: 700px) and (orientation: landscape) { ... } portrait*/
