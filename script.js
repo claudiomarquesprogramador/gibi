@@ -111,7 +111,6 @@ function textoEnviado3() {
 
 //ajustar altura div gibi
 let altura = document.getElementById("gibi");
-let alturaPadrao = "80vh";
 const alturaAtual = altura.clientHeight;
 function ajustar() {
     if(alturaAtual == altura.clientHeight) {
@@ -121,5 +120,19 @@ function ajustar() {
     }else if(altura.style.height == "90vh") {
         altura.style.height = "95vh";
     }else (altura.style.height = "80vh");
+};
+//final
+
+//ajustar largura div gibi
+let largura = document.getElementById("gibi");
+const larguraAtual = largura.clientWidth;
+function ajustar2() {
+    if(larguraAtual == largura.clientWidth) {
+        largura.style.width = "94vw";
+    }else if(largura.style.width == "94vw") {
+        largura.style.width = "89vw";
+    }else if(largura.style.width == "89vw") {
+        largura.style.width = "84vw";
+    }else (largura.style.width = "99vw");
 };
 //final

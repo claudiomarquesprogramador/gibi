@@ -89,3 +89,8 @@ body{
     bottom: 0;
     right: 0;
 }
+@media screen and (max-width:374px) {
+    #botaoLargura {
+        display: none;
+    }
+}
