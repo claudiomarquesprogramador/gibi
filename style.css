@@ -94,3 +94,8 @@ body{
         display: none;
     }
 }
+@media screen and (max-width:549px) {
+    #pexels {
+        display: none;
+    }
+}
