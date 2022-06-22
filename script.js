@@ -80,7 +80,6 @@ function textoEnviado1() {
     if(captar1=="") {
         alert("Escreva o primeiro texto!");
     }else {
-        console.log(captar1);
         document.getElementById("p1").innerHTML = captar1;
     }
 }
@@ -93,7 +92,6 @@ function textoEnviado2() {
     if(captar2=="") {
         alert("Escreva o segundo texto!");
     }else {
-        console.log(captar2);
         document.getElementById("p2").innerHTML = captar2;
     }
 }
@@ -106,8 +104,22 @@ function textoEnviado3() {
     if(captar3=="") {
         alert("Escreva o terceiro texto!");
     }else {
-        console.log(captar3);
         document.getElementById("p3").innerHTML = captar3;
     }
 }
+//final
+
+//ajustar altura div gibi
+let altura = document.getElementById("gibi");
+let alturaPadrao = "80vh";
+const alturaAtual = altura.clientHeight;
+function ajustar() {
+    if(alturaAtual == altura.clientHeight) {
+        altura.style.height = "85vh";
+    }else if(altura.style.height == "85vh") {
+        altura.style.height = "90vh";
+    }else if(altura.style.height == "90vh") {
+        altura.style.height = "95vh";
+    }else (altura.style.height = "80vh");
+};
 //final
